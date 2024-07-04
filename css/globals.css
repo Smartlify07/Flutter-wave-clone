@@ -1,0 +1,80 @@
+:root {
+  --white: #fff;
+  --dark-blue: #262c55;
+  --orange: #fb9129;
+  --btn-bg-1: #eee;
+  --black: #000000;
+  --black-3: #0a0e27;
+  --green: #35a162;
+  --btn-text-orange: #fb4e20;
+  --black-2: #050505;
+  --pink: #f1a5c2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Moderat1", sans-serif;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  width: auto;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-family: "Moderat2";
+  display: inline-block;
+}
+
+.btn-grey {
+  background-color: var(--btn-bg-1);
+  color: var(--black);
+}
+
+.btn-dark {
+  background-color: var(--black-3);
+  color: var(--white);
+}
+
+.btn-light {
+  background-color: var(--white);
+  color: var(--black);
+}
+section,
+header .nav {
+  padding: calc(20px + 8vw) calc(10px + 3.5625vw);
+}
+footer {
+  padding: calc(10px + 3.5625vw);
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Millik Regular";
+  src: url(../assets/fonts/Millik\ Regular.otf);
+}
+
+@font-face {
+  font-family: "Millik Regular";
+  src: url(../assets/fonts/Millik.ttf);
+}
+
+@font-face {
+  font-family: "Moderat2";
+  src: url(../assets/fonts/Moderat-Medium.woff);
+}
+
+@font-face {
+  font-family: "Moderat1";
+  src: url(../assets/fonts/Moderat-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Moderat3";
+  src: url(../assets/fonts/Moderat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Moderat4";
+  src: url(../assets/fonts/Moderat-Regular.woff);
+}
+@font-face {
+  font-family: "Moderat5";
+  src: url(../assets/fonts/Moderat-Bold.woff);
+}
+@font-face {
+  font-family: "Moderat6";
+  src: url(../assets/fonts/Moderat-Black.woff);
+}
+
+@font-face {
+  font-family: "Moderat7";
+  src: url(../assets/fonts/Moderat-Light.woff);
+}
